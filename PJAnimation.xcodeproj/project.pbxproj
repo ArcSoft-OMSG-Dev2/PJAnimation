@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89900A481E8DE7D5001ADA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A471E8DE7D5001ADA95 /* main.m */; };
+		89900A4B1E8DE7D5001ADA95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A4A1E8DE7D5001ADA95 /* AppDelegate.m */; };
+		89900A531E8DE7D5001ADA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89900A521E8DE7D5001ADA95 /* Assets.xcassets */; };
+		89900A561E8DE7D5001ADA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89900A541E8DE7D5001ADA95 /* LaunchScreen.storyboard */; };
+		89900A5F1E8DE88D001ADA95 /* PJOptTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A5E1E8DE88D001ADA95 /* PJOptTableViewController.m */; };
+		89900A631E8DEB15001ADA95 /* PJRootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A621E8DEB15001ADA95 /* PJRootNavigationViewController.m */; };
+		89900A661E8DEB7A001ADA95 /* PJPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A651E8DEB7A001ADA95 /* PJPopAnimation.m */; };
+		89900A691E8DEB92001ADA95 /* PJNavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A681E8DEB92001ADA95 /* PJNavigationInteractiveTransition.m */; };
+		89900A6D1E8DEBDE001ADA95 /* UIViewController+PJFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A6C1E8DEBDE001ADA95 /* UIViewController+PJFullscreenPopGesture.m */; };
+		89900A701E8DEC7F001ADA95 /* PJPopFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A6F1E8DEC7F001ADA95 /* PJPopFirstViewController.m */; };
+		89900A731E8DEC91001ADA95 /* PJPopSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A721E8DEC91001ADA95 /* PJPopSecondViewController.m */; };
+		89900A781E8DF62A001ADA95 /* PJZoomFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A771E8DF62A001ADA95 /* PJZoomFirstViewController.m */; };
+		89900A7B1E8DF639001ADA95 /* PJZoomSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A7A1E8DF639001ADA95 /* PJZoomSecondViewController.m */; };
+		89900A7E1E8DF651001ADA95 /* PJZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89900A7D1E8DF651001ADA95 /* PJZoomAnimation.m */; };
+		D4FFC8DFDB6B104C92F8DEF1 /* libPods-PJAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0776402582650F340431479C /* libPods-PJAnimation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0776402582650F340431479C /* libPods-PJAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PJAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4428F99BB1012AA18309A4 /* Pods-PJAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PJAnimation/Pods-PJAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		89900A431E8DE7D5001ADA95 /* PJAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89900A471E8DE7D5001ADA95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89900A491E8DE7D5001ADA95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89900A4A1E8DE7D5001ADA95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89900A521E8DE7D5001ADA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89900A551E8DE7D5001ADA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89900A571E8DE7D5001ADA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89900A5D1E8DE88D001ADA95 /* PJOptTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJOptTableViewController.h; sourceTree = "<group>"; };
+		89900A5E1E8DE88D001ADA95 /* PJOptTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJOptTableViewController.m; sourceTree = "<group>"; };
+		89900A611E8DEB15001ADA95 /* PJRootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJRootNavigationViewController.h; sourceTree = "<group>"; };
+		89900A621E8DEB15001ADA95 /* PJRootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRootNavigationViewController.m; sourceTree = "<group>"; };
+		89900A641E8DEB7A001ADA95 /* PJPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJPopAnimation.h; sourceTree = "<group>"; };
+		89900A651E8DEB7A001ADA95 /* PJPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJPopAnimation.m; sourceTree = "<group>"; };
+		89900A671E8DEB91001ADA95 /* PJNavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJNavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		89900A681E8DEB92001ADA95 /* PJNavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJNavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		89900A6B1E8DEBDE001ADA95 /* UIViewController+PJFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PJFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		89900A6C1E8DEBDE001ADA95 /* UIViewController+PJFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PJFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		89900A6E1E8DEC7F001ADA95 /* PJPopFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJPopFirstViewController.h; sourceTree = "<group>"; };
+		89900A6F1E8DEC7F001ADA95 /* PJPopFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJPopFirstViewController.m; sourceTree = "<group>"; };
+		89900A711E8DEC91001ADA95 /* PJPopSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJPopSecondViewController.h; sourceTree = "<group>"; };
+		89900A721E8DEC91001ADA95 /* PJPopSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJPopSecondViewController.m; sourceTree = "<group>"; };
+		89900A741E8DEE2F001ADA95 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		89900A761E8DF62A001ADA95 /* PJZoomFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJZoomFirstViewController.h; sourceTree = "<group>"; };
+		89900A771E8DF62A001ADA95 /* PJZoomFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJZoomFirstViewController.m; sourceTree = "<group>"; };
+		89900A791E8DF639001ADA95 /* PJZoomSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJZoomSecondViewController.h; sourceTree = "<group>"; };
+		89900A7A1E8DF639001ADA95 /* PJZoomSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJZoomSecondViewController.m; sourceTree = "<group>"; };
+		89900A7C1E8DF651001ADA95 /* PJZoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJZoomAnimation.h; sourceTree = "<group>"; };
+		89900A7D1E8DF651001ADA95 /* PJZoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJZoomAnimation.m; sourceTree = "<group>"; };
+		89900A7F1E8DF88C001ADA95 /* PJZoomAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJZoomAnimationProtocol.h; sourceTree = "<group>"; };
+		AB308F425A519C751FECA186 /* Pods-PJAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PJAnimation/Pods-PJAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89900A401E8DE7D5001ADA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FFC8DFDB6B104C92F8DEF1 /* libPods-PJAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052E95F5B4767F081C39C554 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB308F425A519C751FECA186 /* Pods-PJAnimation.debug.xcconfig */,
+				2D4428F99BB1012AA18309A4 /* Pods-PJAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8772BC99CD860C78BC8B6407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0776402582650F340431479C /* libPods-PJAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89900A3A1E8DE7D5001ADA95 = {
+			isa = PBXGroup;
+			children = (
+				89900A451E8DE7D5001ADA95 /* PJAnimation */,
+				89900A441E8DE7D5001ADA95 /* Products */,
+				052E95F5B4767F081C39C554 /* Pods */,
+				8772BC99CD860C78BC8B6407 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89900A441E8DE7D5001ADA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89900A431E8DE7D5001ADA95 /* PJAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89900A451E8DE7D5001ADA95 /* PJAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				89900A611E8DEB15001ADA95 /* PJRootNavigationViewController.h */,
+				89900A621E8DEB15001ADA95 /* PJRootNavigationViewController.m */,
+				89900A671E8DEB91001ADA95 /* PJNavigationInteractiveTransition.h */,
+				89900A681E8DEB92001ADA95 /* PJNavigationInteractiveTransition.m */,
+				89900A5D1E8DE88D001ADA95 /* PJOptTableViewController.h */,
+				89900A5E1E8DE88D001ADA95 /* PJOptTableViewController.m */,
+				89900A601E8DE9D7001ADA95 /* PopAnimation */,
+				89900A751E8DF5FD001ADA95 /* ZoomAnimation */,
+				89900A801E8E3410001ADA95 /* SkidMenu */,
+				89900A461E8DE7D5001ADA95 /* Supporting Files */,
+			);
+			path = PJAnimation;
+			sourceTree = "<group>";
+		};
+		89900A461E8DE7D5001ADA95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89900A491E8DE7D5001ADA95 /* AppDelegate.h */,
+				89900A4A1E8DE7D5001ADA95 /* AppDelegate.m */,
+				89900A521E8DE7D5001ADA95 /* Assets.xcassets */,
+				89900A541E8DE7D5001ADA95 /* LaunchScreen.storyboard */,
+				89900A571E8DE7D5001ADA95 /* Info.plist */,
+				89900A471E8DE7D5001ADA95 /* main.m */,
+				89900A741E8DEE2F001ADA95 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89900A601E8DE9D7001ADA95 /* PopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				89900A6A1E8DEBDE001ADA95 /* Category */,
+				89900A6E1E8DEC7F001ADA95 /* PJPopFirstViewController.h */,
+				89900A6F1E8DEC7F001ADA95 /* PJPopFirstViewController.m */,
+				89900A711E8DEC91001ADA95 /* PJPopSecondViewController.h */,
+				89900A721E8DEC91001ADA95 /* PJPopSecondViewController.m */,
+				89900A641E8DEB7A001ADA95 /* PJPopAnimation.h */,
+				89900A651E8DEB7A001ADA95 /* PJPopAnimation.m */,
+			);
+			path = PopAnimation;
+			sourceTree = "<group>";
+		};
+		89900A6A1E8DEBDE001ADA95 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				89900A6B1E8DEBDE001ADA95 /* UIViewController+PJFullscreenPopGesture.h */,
+				89900A6C1E8DEBDE001ADA95 /* UIViewController+PJFullscreenPopGesture.m */,
+			);
+			name = Category;
+			path = ../Category;
+			sourceTree = "<group>";
+		};
+		89900A751E8DF5FD001ADA95 /* ZoomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				89900A761E8DF62A001ADA95 /* PJZoomFirstViewController.h */,
+				89900A771E8DF62A001ADA95 /* PJZoomFirstViewController.m */,
+				89900A791E8DF639001ADA95 /* PJZoomSecondViewController.h */,
+				89900A7A1E8DF639001ADA95 /* PJZoomSecondViewController.m */,
+				89900A7C1E8DF651001ADA95 /* PJZoomAnimation.h */,
+				89900A7D1E8DF651001ADA95 /* PJZoomAnimation.m */,
+				89900A7F1E8DF88C001ADA95 /* PJZoomAnimationProtocol.h */,
+			);
+			path = ZoomAnimation;
+			sourceTree = "<group>";
+		};
+		89900A801E8E3410001ADA95 /* SkidMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SkidMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89900A421E8DE7D5001ADA95 /* PJAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89900A5A1E8DE7D5001ADA95 /* Build configuration list for PBXNativeTarget "PJAnimation" */;
+			buildPhases = (
+				06B0CE7B73A07477A694614E /* [CP] Check Pods Manifest.lock */,
+				89900A3F1E8DE7D5001ADA95 /* Sources */,
+				89900A401E8DE7D5001ADA95 /* Frameworks */,
+				89900A411E8DE7D5001ADA95 /* Resources */,
+				BA4A7D1FD3350EF771F7F336 /* [CP] Embed Pods Frameworks */,
+				FA61EFCFF2A1337BB85AED4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJAnimation;
+			productName = PJAnimation;
+			productReference = 89900A431E8DE7D5001ADA95 /* PJAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89900A3B1E8DE7D5001ADA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Smile;
+				TargetAttributes = {
+					89900A421E8DE7D5001ADA95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 248J2GVEK6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89900A3E1E8DE7D5001ADA95 /* Build configuration list for PBXProject "PJAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89900A3A1E8DE7D5001ADA95;
+			productRefGroup = 89900A441E8DE7D5001ADA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89900A421E8DE7D5001ADA95 /* PJAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89900A411E8DE7D5001ADA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89900A561E8DE7D5001ADA95 /* LaunchScreen.storyboard in Resources */,
+				89900A531E8DE7D5001ADA95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B0CE7B73A07477A694614E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4A7D1FD3350EF771F7F336 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJAnimation/Pods-PJAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA61EFCFF2A1337BB85AED4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJAnimation/Pods-PJAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89900A3F1E8DE7D5001ADA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89900A781E8DF62A001ADA95 /* PJZoomFirstViewController.m in Sources */,
+				89900A631E8DEB15001ADA95 /* PJRootNavigationViewController.m in Sources */,
+				89900A691E8DEB92001ADA95 /* PJNavigationInteractiveTransition.m in Sources */,
+				89900A661E8DEB7A001ADA95 /* PJPopAnimation.m in Sources */,
+				89900A5F1E8DE88D001ADA95 /* PJOptTableViewController.m in Sources */,
+				89900A6D1E8DEBDE001ADA95 /* UIViewController+PJFullscreenPopGesture.m in Sources */,
+				89900A701E8DEC7F001ADA95 /* PJPopFirstViewController.m in Sources */,
+				89900A4B1E8DE7D5001ADA95 /* AppDelegate.m in Sources */,
+				89900A481E8DE7D5001ADA95 /* main.m in Sources */,
+				89900A7B1E8DF639001ADA95 /* PJZoomSecondViewController.m in Sources */,
+				89900A731E8DEC91001ADA95 /* PJPopSecondViewController.m in Sources */,
+				89900A7E1E8DF651001ADA95 /* PJZoomAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89900A541E8DE7D5001ADA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89900A551E8DE7D5001ADA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89900A581E8DE7D5001ADA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89900A591E8DE7D5001ADA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89900A5B1E8DE7D5001ADA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB308F425A519C751FECA186 /* Pods-PJAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 248J2GVEK6;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PJAnimation/PrefixHeader.pch";
+				INFOPLIST_FILE = PJAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelyw.PJAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89900A5C1E8DE7D5001ADA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4428F99BB1012AA18309A4 /* Pods-PJAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 248J2GVEK6;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PJAnimation/PrefixHeader.pch";
+				INFOPLIST_FILE = PJAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelyw.PJAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89900A3E1E8DE7D5001ADA95 /* Build configuration list for PBXProject "PJAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89900A581E8DE7D5001ADA95 /* Debug */,
+				89900A591E8DE7D5001ADA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89900A5A1E8DE7D5001ADA95 /* Build configuration list for PBXNativeTarget "PJAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89900A5B1E8DE7D5001ADA95 /* Debug */,
+				89900A5C1E8DE7D5001ADA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89900A3B1E8DE7D5001ADA95 /* Project object */;
+}
